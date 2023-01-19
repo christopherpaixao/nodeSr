@@ -7,5 +7,5 @@ app.get("/teste", (request, response) => {
 });
 
 app.listen(3333, () => {
-  console.log("HTTP Server running! agora vai");
+  console.log("HTTP Server running! agora vai dfaaaaaaaaa");
 });
