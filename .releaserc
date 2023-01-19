@@ -1,7 +1,8 @@
 {
+    "repositoryUrl": "https://github.com/christopherpaixao/nodeSr",
     "plugins": [
         "@semantic-release/commit-analyzer",
-        "@semantic-release/github",
+        "@semantic-release/changelog",
         [
             "@semantic-release/npm",
             {
@@ -22,7 +23,6 @@
             }
         ]
     ],
-    "repositoryUrl": "https://github.com/christopherpaixao/nodeSr",
     "branches": [
         "master"
     ]
